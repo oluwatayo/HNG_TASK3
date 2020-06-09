@@ -4,6 +4,10 @@ from twilio_api import get_twilio_criteria, twilio_responder, twilio_sender
 
 app = Flask(__name__)
 
+@app.route("/")
+def index():
+    return redirect(url_for("login"))
+
 """
 This is the details route. Enter the endpoint to get your details.
 You can change the client_number to your number if it's registered on the current account
