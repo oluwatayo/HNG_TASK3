@@ -15,6 +15,12 @@ This task however should be able to fit well into one application as there's onl
 If you have knowledge of Python, you can look at the code here, it's quite easy to understand and is well commented.
 Should you still have any confusions, hit me up @Red.
 
+This task is available on http://hng-task3.herokuapp.com and is more of an API.
+You'd have to get your number registered on the account being used as it's a trial account, so DM me for that.
+The available endpoints are http://hng-task3.herokuapp.com/details and http://hng-task3.herokuapp.com/send
+The third endpoint http://hng-task3.herokuapp.com/sms is accessed via SMS and gives a reply.
+You'll also have to get registered for that. 
+
 The repo we'd use is still unavailable as at now so do your work locally until then.
 This task was originally chosen to be done in Python/Django, but it turns out the concept of the framework defeats the whole purpose of having a micro-service.
 The language we'll be doing this task in is Node.js.
